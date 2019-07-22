@@ -1,3 +1,13 @@
+/*! 
+ *  \file
+ *  \brief     Check for properties of a Number
+ *  \details   This code checks whether a number is Armstrong, Prime or Palindrone
+ *  \author    Sudhanshu Dubey
+ *  \version   1.0
+ *  \date      28/7/18
+ *  \bug       No known bugs.
+ */
+
 #include<iostream>
 #include"header.h"
 using namespace std;
@@ -7,8 +17,8 @@ int main()
   char ans;
   cout<<" Enter the number : ";
   cin>>num;
-  cout<<" What do you want to check : \n 1.Is number prime?"; 
-  cout<<"\n 2.Is it armstrong number? \n 3. Is number a palindrome?\n";
+  cout<<" What do you want to check : \n 1. Is number prime?"; 
+  cout<<"\n 2. Is it armstrong number? \n 3. Is number a palindrome?\n";
   cin>>opt;
   switch(opt)
   { case 1 : ans = isprime(num);
