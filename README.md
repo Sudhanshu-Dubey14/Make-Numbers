@@ -44,6 +44,7 @@ Simple right! That's what's make was made for in the first place. After this is 
 You can just ``cd`` into ``build`` and the execute these files like:
 
 ``./functions.out``
+
 ``./numbers.out``
 
 And thus find out what these files actually do!!!
