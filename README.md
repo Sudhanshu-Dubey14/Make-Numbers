@@ -1,4 +1,4 @@
-# "Make" Numbers in C
+# "Make" Numbers in C++
 
 - This code was basically written to practice [Make](https://www.gnu.org/software/make/) and [Makefile](https://en.m.wikipedia.org/wiki/Makefile).
 - You can find the blogs related to this repository [here](https://hacksd.wordpress.com/2018/06/19/make/) and [there](https://hacksd.wordpress.com/2018/07/26/recursive-make/)(careful, they are in order). And I would actually recommend you to read these blogs before using this repo.
@@ -7,14 +7,14 @@
 ## Pre-requisites
 
 1. [Git](https://git-scm.com/)
-1. [Gnu C compiler](https://gcc.gnu.org/)(or any of your favorite C compiler)
+1. [GCC](https://gcc.gnu.org/)(or any of your favorite C compiler)
 1. Make
 
 Since this uses GNU Make, its specifically made for systems running Linux and its various distros. The command to get these pre-requisites in your Linux distro is:
 
 * Debian and its derivatives
 
-``sudo apt install git build-essentail``
+``sudo apt install git build-essential``
 
 * CentOS like systems (Haven't really tested on it, but it should work)
 
