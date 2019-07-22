@@ -1,0 +1,60 @@
+
+\begin{DoxyItemize}
+\item This code was basically written to practice \href{https://www.gnu.org/software/make/}{\texttt{ Make}} and \href{https://en.m.wikipedia.org/wiki/Makefile}{\texttt{ Makefile}}.
+\item You can find the blogs related to this repository \href{https://hacksd.wordpress.com/2018/06/19/make/}{\texttt{ here}} and \href{https://hacksd.wordpress.com/2018/07/26/recursive-make/}{\texttt{ there}}(careful, they are in order). And I would actually recommend you to read these blogs before using this repo.
+\item I am not writing what the code in this repo actually does because I want you to find it out. And don\textquotesingle{}t worry, it\textquotesingle{}s nothing dangerous.
+\end{DoxyItemize}\hypertarget{index_autotoc_md1}{}\doxysection{Pre-\/requisites}\label{index_autotoc_md1}
+
+\begin{DoxyEnumerate}
+\item \href{https://git-scm.com/}{\texttt{ Git}}
+\end{DoxyEnumerate}
+\begin{DoxyEnumerate}
+\item \href{https://gcc.gnu.org/}{\texttt{ G\+CC}}(or any of your favorite C compiler)
+\end{DoxyEnumerate}
+\begin{DoxyEnumerate}
+\item Make
+\end{DoxyEnumerate}
+
+Since this uses G\+NU Make, its specifically made for systems running Linux and its various distros. The command to get these pre-\/requisites in your Linux distro is\+:
+
+
+\begin{DoxyItemize}
+\item Debian and its derivatives
+\end{DoxyItemize}
+
+{\ttfamily sudo apt install git build-\/essentail}
+
+
+\begin{DoxyItemize}
+\item Cent\+OS like systems (Haven\textquotesingle{}t really tested on it, but it should work)
+\end{DoxyItemize}
+
+{\ttfamily sudo yum install git gcc gcc-\/c++ make}\hypertarget{index_autotoc_md2}{}\doxysection{Getting the repo}\label{index_autotoc_md2}
+Clone this repository using the command\+:
+
+{\ttfamily git clone \href{https://github.com/Sudhanshu-Dubey14/Make-Numbers.git}{\texttt{ https\+://github.\+com/\+Sudhanshu-\/\+Dubey14/\+Make-\/\+Numbers.\+git}}}\hypertarget{index_autotoc_md3}{}\doxysection{Building with Make}\label{index_autotoc_md3}
+After you have obtained the code, you just need to {\ttfamily cd} into it like\+:
+
+{\ttfamily cd Make-\/\+Numbers} (If you used above command to clone the repo)
+
+And after that, just run make like\+:
+
+{\ttfamily make}
+
+Simple right! That\textquotesingle{}s what\textquotesingle{}s make was made for in the first place. After this is completed, you will find two new files in the {\ttfamily build} directory\+:
+
+
+\begin{DoxyEnumerate}
+\item {\ttfamily functions.\+out}
+\end{DoxyEnumerate}
+\begin{DoxyEnumerate}
+\item {\ttfamily numbers.\+out}
+\end{DoxyEnumerate}
+
+You can just {\ttfamily cd} into {\ttfamily build} and the execute these files like\+:
+
+{\ttfamily ./functions.out}
+
+{\ttfamily ./numbers.out}
+
+And thus find out what these files actually do!!! 
