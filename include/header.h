@@ -1,3 +1,13 @@
+/*! 
+ *  \file
+ *  \brief     Functions to be used elsewhere
+ *  \details   This code contains various mathematical functions that can be used elsewhere
+ *  \author    Sudhanshu Dubey
+ *  \version   1.0
+ *  \date      28/7/18
+ *  \bug       No known bugs.
+ */
+
 #include<math.h>
 
 int factorial(int num)

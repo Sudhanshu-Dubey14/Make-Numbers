@@ -12,6 +12,10 @@
 #include"header.h"
 using namespace std;
 
+/*! \fn	int main()
+ * \brief	The main function of this file
+ * \return	An integer
+ */
 int main()
 { int num, opt;
   char ans;

@@ -1,3 +1,13 @@
+/*! 
+ *  \file
+ *  \brief     Compute numbers related to a Number
+ *  \details   This code finds the Factorial of a number and average of two numbers
+ *  \author    Sudhanshu Dubey
+ *  \version   1.0
+ *  \date      28/7/18
+ *  \bug       No known bugs.
+ */
+
 #include<iostream>
 #include"header.h"
 using namespace std;
