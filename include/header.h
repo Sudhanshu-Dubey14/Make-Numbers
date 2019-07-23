@@ -10,12 +10,24 @@
 
 #include<math.h>
 
+/*! \fn	int factorial(int num)
+ * \brief	The function to find factorial of a number
+ * \return	An integer
+ * \param	num	Number whose factorial is to be found
+ */
+
 int factorial(int num)
 { int i,fact=1;
   for( i=1; i<=num ; i++)
    fact *= i;
   return fact;
 }
+
+/*! \fn	char isprime(int num)
+ * \brief	The function to check for prime number
+ * \return	A character
+ * \param	num	Number whose prime is to be checked
+ */
 
 char isprime(int num)
 { int i;
@@ -27,6 +39,12 @@ char isprime(int num)
   }
 }
 
+/*! \fn	char ispalindrome(int num)
+ * \brief	The function to check for palindrome number
+ * \return	A character
+ * \param	num	Number whose palindrome is to be checked
+ */
+
 char ispalindrome(int num)
 { int i, rev=0;
   for( ; num!=0 ; num/=10 )
@@ -36,6 +54,12 @@ char ispalindrome(int num)
   else
     return 'n';
 }
+
+/*! \fn	char isarmstrong(int num)
+ * \brief	The function to check for armstrong number
+ * \return	A character
+ * \param	num	Number whose armstrong is to be checked
+ */
 
 char isarmstrong(int num)
 { int i, arm=0, len=0, Digits[len], num_cpy;
@@ -50,6 +74,13 @@ char isarmstrong(int num)
   else 
 	  return 'n';
 }
+
+/*! \fn	int average(int num1, int num2)
+ * \brief	The function to find average
+ * \return	An integer
+ * \param	num1	First number
+ * \param	num2	Second number
+ */
 
 int average( int num1, int num2 )
 { return (num1 + num2)/2;

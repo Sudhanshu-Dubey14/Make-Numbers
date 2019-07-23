@@ -17,7 +17,14 @@ using namespace std;
  * \return	An integer
  */
 int main()
-{ int num, opt;
+{ /*! \var	num
+   * The number on which operation is to be performed
+   * \var	opt
+   * The option of operation chosen by user
+   * \var	ans
+   * The answer returned by functions
+   */ 
+  int num, opt;
   char ans;
   cout<<" Enter the number : ";
   cin>>num;

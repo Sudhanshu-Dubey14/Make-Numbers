@@ -12,8 +12,22 @@
 #include"header.h"
 using namespace std;
 
+/*! \fn	int main()
+ * \brief	The main function of this file
+ * \return	An integer
+ */
+
 int main()
-{ int num1, num2, result, opt;
+{ /*! \var	num1
+   * The first number
+   * \var	num2
+   * The second number
+   * \var	result
+   * The result of computations
+   * \var	opt
+   * The option of operation chosen by user
+   */ 
+  int num1, num2, result, opt;
   cout<<" What do you want to do : \n 1.Find factorial \n 2.Find average\n";
   cin>>opt;
   switch(opt)
